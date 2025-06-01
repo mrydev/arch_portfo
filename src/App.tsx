@@ -53,9 +53,9 @@ setIsMenuOpen(false);
 const projects = [
 {
 id: 1,
-title: "Urban Renewal Complex",
-description: "Mixed-use development with sustainable features",
-fullDescription: "A conceptual design for a mixed-use urban complex that integrates residential, commercial, and public spaces. The project focuses on sustainability, incorporating green roofs, rainwater harvesting systems, and energy-efficient facades.",
+title: "Balıkesir Villa Complex",
+description: "Modern architectural mixed-use building",
+fullDescription: "A modern architectural mixed-use building designed to integrate residential, commercial, and public spaces. The design emphasizes sustainability with green roof terraces, a glass facade, and",
 technical: "Materials: Concrete, Steel, Glass | Area: 12,000 sq.m | Location: Downtown District",
 images: [
 "https://readdy.ai/api/search-image?query=Modern%20architectural%20mixed-use%20building%20with%20glass%20facade%2C%20green%20roof%20terraces%2C%20and%20sustainable%20design%20elements.%20Urban%20setting%20with%20pedestrian%20areas%20and%20landscaping.%20Dramatic%20lighting%2C%20professional%20architectural%20photography%2C%20ultra%20high%20quality%2C%20photorealistic&width=800&height=600&seq=1&orientation=landscape",
@@ -211,7 +211,7 @@ EXPLORE_WORKS
 <div className="overflow-hidden border-8 border-white">
 <img
 src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20young%20male%20architecture%20student%20in%20modern%20studio%20environment%2C%20well-dressed%20in%20casual%20professional%20attire%2C%20surrounded%20by%20architectural%20models%20and%20drawings%2C%20natural%20lighting%2C%20thoughtful%20expression%2C%20ultra%20high%20quality%2C%20photorealistic&width=600&height=800&seq=20&orientation=portrait"
-alt="John Smith - Architecture Student"
+alt="Emre Yavuz - Architecture Student"
 className="w-full h-full object-cover object-top"
 />
 </div>
@@ -219,13 +219,15 @@ className="w-full h-full object-cover object-top"
 <div className="md:w-3/5">
 <h3 className="text-3xl font-bold mb-8 tracking-tighter">MANIFESTO_</h3>
 <p className="text-gray-300 mb-6 leading-relaxed font-mono">
-I am a final-year architecture student passionate about creating spaces that blend functionality, sustainability, and aesthetic beauty. My design approach focuses on human-centered solutions that respond to both environmental and social contexts.
+I am a second-year architecture student with a strong interest in designing spaces that merge functionality, sustainability, and aesthetic expression. My approach emphasizes human-centered and context-aware solutions, aiming to create environments that respond to both ecological needs and social dynamics. I’m particularly drawn to parametric design methods that are thoughtful and balanced, and I enjoy exploring how architecture can enhance well-being through spatial quality and environmental harmony.
 </p>
 <p className="text-gray-600 mb-6 leading-relaxed">
-Throughout my academic journey, I've developed expertise in parametric design, sustainable building practices, and digital fabrication. I believe architecture has the power to address pressing challenges of our time while creating meaningful experiences for people.
+Throughout my academic journey, I’ve been developing skills in parametric design, sustainable architecture, and digital modeling tools. I believe architecture has the potential to respond to today’s environmental and social challenges while shaping spaces that offer meaningful experiences for people.
+
 </p>
 <p className="text-gray-600 mb-8 leading-relaxed">
-When not designing, you can find me sketching urban landscapes, exploring photography, or volunteering for community design initiatives. I'm currently seeking opportunities to collaborate with forward-thinking architectural practices.
+When I'm not working on design projects, I enjoy sketching urban scenes, exploring architectural photography, and engaging in community-focused design ideas. I'm currently looking for opportunities to collaborate with innovative architectural practices where I can contribute and continue learning.
+
 </p>
 <div className="flex flex-wrap gap-4 mt-12">
 <div className="bg-white text-black px-6 py-4">
@@ -234,7 +236,7 @@ When not designing, you can find me sketching urban landscapes, exploring photog
 </div>
 <div className="bg-white text-black px-6 py-4">
 <span className="block text-xs tracking-widest mb-1">LOCATION_</span>
-<span className="font-bold">NYC</span>
+<span className="font-bold">IZM</span>
 </div>
 <div className="bg-white text-black px-6 py-4">
 <span className="block text-xs tracking-widest mb-1">FOCUS_</span>
@@ -289,7 +291,7 @@ VIEW_DETAILS
 <div className="mb-8 w-40 h-56 mx-auto bg-gray-100 rounded shadow-inner flex items-center justify-center">
 <i className="far fa-file-pdf text-gray-400 text-5xl"></i>
 </div>
-<h3 className="text-xl font-semibold mb-4">John Smith - Architecture CV</h3>
+<h3 className="text-xl font-semibold mb-4">Emre YAVUZ - Architecture CV</h3>
 <p className="text-gray-600 mb-8">
 Download my complete CV to learn more about my education, skills, and experience in architectural design.
 </p>
@@ -316,15 +318,15 @@ I'm currently available for internships, collaborations, and academic opportunit
 <div className="space-y-4 mb-8">
 <div className="flex items-start">
 <i className="fas fa-envelope text-gray-400 mt-1 w-6"></i>
-<span className="ml-3 text-gray-600">john.smith@architecture.edu</span>
+<span className="ml-3 text-gray-600">emreyavuz@studioemeris.xyz</span>
 </div>
 <div className="flex items-start">
 <i className="fas fa-phone text-gray-400 mt-1 w-6"></i>
-<span className="ml-3 text-gray-600">+1 (555) 123-4567</span>
+<span className="ml-3 text-gray-600">+90 (530) 249-4535</span>
 </div>
 <div className="flex items-start">
 <i className="fas fa-map-marker-alt text-gray-400 mt-1 w-6"></i>
-<span className="ml-3 text-gray-600">New York, NY, USA</span>
+<span className="ml-3 text-gray-600">Izmir, IZM, TR</span>
 </div>
 </div>
 <h3 className="text-xl font-semibold mb-4">Connect</h3>
@@ -386,7 +388,7 @@ Send Message
 {/* Footer */}
 <footer className="py-8 bg-zinc-900 text-white border-t border-white/20">
 <div className="container mx-auto px-6 text-center">
-<p className="mb-4">© {new Date().getFullYear()} John Smith. All rights reserved.</p>
+<p className="mb-4">© {new Date().getFullYear()} Emre Yavuz. All rights reserved.</p>
 <p className="text-gray-400 text-sm">
 Designed and built with passion for architecture and design.
 </p>
